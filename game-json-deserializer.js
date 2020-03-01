@@ -47,7 +47,7 @@ export class GameJsonDeserializer {
     //re-setup game environment
     const game = new Game(this.loadState.player1, this.loadState.player2);
     game.setCurrentPlayer(this.loadState.currentPlayer);
-    let rowInIndex = [5, 5, 5, 5, 5, 5, 5];
+    const rowInIndex = [5, 5, 5, 5, 5, 5, 5];
     let playerTurn = 1;
     while (rowInIndex.some(ele => ele !== -1)) {
       for (let columnIndex = 0; columnIndex < 7; columnIndex++) {

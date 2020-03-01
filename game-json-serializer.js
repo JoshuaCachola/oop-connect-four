@@ -15,16 +15,16 @@ export class GameJsonSerializer {
   }
 
   serialize() {
-    let columns = [];
+    const columns = [];
     for (let i = 0; i < 6; i++) {
-      let innerCol = [];
+      const innerCol = [];
       for (let j = 0; j < 7; j++) {
         innerCol.push(this.game.getTokenAt(j, i));
       }
       columns.push(innerCol);
     }
 
-    let savedState = {
+    const savedState = {
       "player1": this.game.getPlayerOne(),
       "player2": this.game.getPlayerTwo(),
       "currentPlayer": this.game.getCurrentPlayer(),
