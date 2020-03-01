@@ -121,3 +121,80 @@ main {
   background-color: white;
   cursor: no-drop;
 }
+
+#game-name {
+  text-align: center;
+  font-weight: bold;
+}
+
+.drop-token0 {
+  top: -150px;
+  box-sizing: border-box;
+  border-radius: 65px;
+  height: 65px;
+  margin: 5px;
+  width: 65px;
+  transition-property: top;
+  transition-duration: 500ms;
+  position: relative;
+}
+
+.drop-token1 {
+  top: -225px;
+  box-sizing: border-box;
+  border-radius: 65px;
+  height: 65px;
+  margin: 5px;
+  width: 65px;
+  transition-property: top;
+  transition-duration: 525ms;
+  position: relative;
+}
+
+.drop-token2 {
+  top: -300px;
+  box-sizing: border-box;
+  border-radius: 65px;
+  height: 65px;
+  margin: 5px;
+  width: 65px;
+  transition-property: top;
+  transition-duration: 550ms;
+  position: relative;
+}
+
+.drop-token3 {
+  top: -375px;
+  box-sizing: border-box;
+  border-radius: 65px;
+  height: 65px;
+  margin: 5px;
+  width: 65px;
+  transition-property: top;
+  transition-duration: 700ms;
+  position: relative;
+}
+
+.drop-token4 {
+  top: -450px;
+  box-sizing: border-box;
+  border-radius: 65px;
+  height: 65px;
+  margin: 5px;
+  width: 65px;
+  transition-property: top;
+  transition-duration: 850ms;
+  position: relative;
+}
+
+.drop-token5 {
+  top: -525px;
+  box-sizing: border-box;
+  border-radius: 65px;
+  height: 65px;
+  margin: 5px;
+  width: 65px;
+  transition-property: top;
+  transition-duration: 1000ms;
+  position: relative;
+}
